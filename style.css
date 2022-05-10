@@ -1,0 +1,119 @@
+* {
+  margin: 50;
+  padding: 50;
+  box-sizing: border-box;
+}
+
+body {
+background-image:
+url(https://cdn.discordapp.com/attachments/971859871509123102/971881342713335880/playa.jpg);
+background-repeat:no-repeat;
+background-size: 90rem;
+background-position-x:center;
+background-position-y:center;
+font-family: 'Bebas Neue', cursive;
+color: floralwhite;
+}
+
+.main {
+  width: 100vw;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.titulo {
+  padding: 50px;
+  width: 30vw;
+  margin: auto;
+
+}
+
+.box {
+  padding: 10px;
+  margin: 0 10px 0 10px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  background-color: floralwhite;
+  border-radius: 0.5em;
+  width: 30vw;
+  height: auto;
+}
+
+.btn {
+  border: 0;
+  color: floralwhite;
+  font-weight: bold;
+  background-color: royalblue;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 0.5em;
+}
+
+.text-input {
+border-radius: 0.5em;
+border: 1px solid rgba(0, 0, 0, 0.2);
+display: block;
+padding: 0.5em;
+width: 700px;
+height: 400px;
+background-color: black;
+color: white;
+font-size: x-large;
+
+}
+
+.text-input-salida{
+
+background-color: black;
+width: 350px;
+height: 400px;
+float: right;
+position: absolute;top: 31.5%;left: 70%;
+border-color: transparent;
+font-family: cursive;
+font-size: large;
+color: green;
+border-radius: 5%;
+
+}
+
+.copy{
+position: absolute;top: 100%;left: 80%;
+background-color: #FF0F00; /* Red */
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+
+}
+
+.boton1{
+
+position: absolute;top: 100%;left: 47%;
+background-color: #FF0F00; /* Red */
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+
+}
+
+.boton2{
+
+position: absolute;top: 100%;left: 27%;
+background-color: #FF0F00; /* Red */
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+
+}
